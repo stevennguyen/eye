@@ -76,6 +76,7 @@ int main(int argc, char **argv) {
         cv::waitKey(5);
     }
 
+    cv::destroyAllWindows();
     shutdown();
     return 0;
 }
