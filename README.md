@@ -6,6 +6,7 @@ Facial/feature tracking pan-tilt camera with the Raspberry Pi SBC and camera mod
 * core_freq=350
 * sdram_freq=450
 * over_voltage=0
+* gpu_mem_512=128
 
 notes
 ==
