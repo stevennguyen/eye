@@ -13,3 +13,5 @@ notes
 PWM generated via DMA using a slightly modified [library](https://github.com/metachris/RPIO/tree/master/source/c_pwm). Changes were made to avoid casting errors/warnings when compiling with g++.
 
 PD control loop has been implemented however gain constants are untuned. Performance seems acceptable at the moment, but values will be changed according to Ziegler-Nichols method when possible.
+
+The bcm2835-v4l2 driver is needed to have the camera module play nicely with OpenCV. More info [here](https://github.com/raspberrypi/linux/blob/rpi-3.10.y/Documentation/video4linux/bcm2835-v4l2.txt)
